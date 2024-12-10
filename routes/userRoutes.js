@@ -45,7 +45,14 @@ router.post('/signup', async (req, res) =>{
         res.status(500).json({error: 'Internal Server Error'});
     }
 })
-
+// dummy 
+router.get('/hello', async (req, res) => {
+    try {
+        res.status(200).send('Hello, World!');
+    } catch (err) {
+        res.status(500).json({ message: 'Internal Server Error' });
+    }
+});
 // Login Route
 router.post('/login', async(req, res) => {
     try{
