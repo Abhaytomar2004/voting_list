@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Voting Application
 
 This is a backend application for a voting system where users can vote for candidates. It provides functionalities for user authentication, candidate management, and voting.
@@ -64,3 +65,6 @@ This is a backend application for a voting system where users can vote for candi
 
 ### Change Password
 - `PUT /users/profile/password`: Change user password
+=======
+# voting_list
+>>>>>>> 80d8dd7338d9cdd765993d0a9a53f0e2826c28fd
